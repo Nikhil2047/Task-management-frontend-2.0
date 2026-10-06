@@ -1,0 +1,68 @@
+
+.auth-container{
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url("../../assets/images/blank-blue-halftone-background_53876-114592.avif");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container form{
+    width: 500px;
+    border: 2px solid rgba(46, 31, 31, 0.405);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    
+}
+
+.auth-container form h1{
+    font-size: 50px;
+}
+
+.auth-container input{
+    margin-top: 50px;
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(11, 11, 11, 0.505);
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.auth-container input::placeholder{
+    color:rgba(9, 8, 8, 0.268)
+}
+
+.auth-container button{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 25px;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.auth-container p{
+    margin-top: 30px;
+}
+
+.auth-container p span{
+    font-weight: 600;
+    cursor: pointer;
+}

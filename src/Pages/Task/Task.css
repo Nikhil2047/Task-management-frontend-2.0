@@ -1,0 +1,29 @@
+.main-task{
+    height: 100vh;
+}
+
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comment h1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.comment button{
+    margin-bottom: 60px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.comment button:hover{
+    cursor: pointer;
+}

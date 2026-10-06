@@ -1,0 +1,26 @@
+.projectsComp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.projectCard{
+    background-color: #EBF4F6;
+    padding: 16px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectsComp a {
+    text-decoration: none;
+}
