@@ -14,7 +14,7 @@ const Verify = () => {
 
     const verifyUser = async()=>{
         try {
-            const response = await axios.get(`/user/verify/${token}`);
+            const response = await axios.get(`/verify/${token}`);
             setLoading(false);
             
             setResponseStatus(response.data)
