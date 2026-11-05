@@ -1,6 +1,7 @@
 .main-projects{
     height: 100vh;
     background-image: url(../../assets/images/particle-lines-futuristic-gradient-background.jpg);
+    object-fit: contain;
 }
 
 
