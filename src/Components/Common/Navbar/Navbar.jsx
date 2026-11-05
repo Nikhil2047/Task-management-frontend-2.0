@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
          { user?.userType === 3 ? <Link to={`/project/${user.pId}`}>Project</Link> :  <Link to="/projects">Projects</Link> }
           {
-            !user || !token ? <Link className='login' to="/auth">Login</Link> :<Link onClick={logout}>Logout</Link>
+            !user || !token ? <Link className='login' to="/auth">Login</Link> :<Link className='login' onClick={logout}>Logout</Link>
           }
         </div>
     </div>
