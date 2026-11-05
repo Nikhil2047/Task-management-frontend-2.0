@@ -1,7 +1,6 @@
 .main-projects{
     height: 100vh;
-    background: #6464a1;
-    background: linear-gradient(90deg, rgba(100, 100, 161, 1) 0%, rgba(7, 250, 246, 1) 65%);
+    background-image: url(../../assets/images/particle-lines-futuristic-gradient-background.jpg);
 }
 
 
