@@ -113,7 +113,7 @@ const Task = () => {
                 </select>
               <br />
               <br />
-              <button onClick={AddComment}>Add comment</button>
+              <button className='modal-btn' onClick={AddComment}>Add comment</button>
             </Modal>)}
     </div>
   )
