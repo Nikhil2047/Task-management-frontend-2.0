@@ -1,5 +1,7 @@
 .main-task{
     height: 100vh;
+    background-image: url(../../assets/images/particle-lines-futuristic-gradient-background.jpg);
+    object-fit: contain;
 }
 
 .comment{
@@ -15,16 +17,10 @@
     font-size: 60px;
 }
 
-.modal-btn{
-    background-color: black;
-    padding: 10px;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 .comment button{
+    background-color: black;
+    color: white;
     margin-bottom: 60px;
     font-size: 20px;
     padding: 10px;
